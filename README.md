@@ -1,3 +1,4 @@
+<img width="1919" height="726" src="https://github.com/user-attachments/assets/f042d7be-d562-4f6f-9479-8b39d0df9b4e" />
 
 ---
 
@@ -40,8 +41,8 @@ Um produto possui os seguintes campos:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/piudi2121/ProductManagerAPI
+cd ProductManagerAPI
 ```
 
 2. Instale os pacotes necessários:
@@ -65,6 +66,7 @@ uvicorn main:app --reload
 
 * `POST /products` – Criar produto
 * `GET /products` – Listar produtos
+* `GET /products/{category}` – Listar produtos de uma categoria
 * `GET /products/{id}` – Buscar produto por ID
 * `PUT /products/{id}` – Atualizar produto
 * `DELETE /products/{id}` – Remover produto
@@ -73,6 +75,9 @@ uvicorn main:app --reload
 
 * O banco de dados é criado automaticamente usando SQLite
 * Projeto voltado para estudo e prática de FastAPI + SQLAlchemy
-* Não utiliza migrations (Alembic) por simplicidade
+
+## Rascunhos
+
+<img width="1069" height="582" src="https://github.com/user-attachments/assets/4019e556-38d8-42d6-a115-83b083242878" />
 
 ---
